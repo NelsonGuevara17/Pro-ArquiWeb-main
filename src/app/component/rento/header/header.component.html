@@ -1,0 +1,28 @@
+ <mat-grid-tile-header>
+    <header>
+      <mat-toolbar color="primary" class="mat-toolbar mat-primary" >
+        <div class="logo">
+          <div class="s1 img">
+            <img [routerLink]="'/rento/home'" src="assets\image\rento.png" >
+
+          </div>
+
+          <div class="search">
+            <div class="input-grup">
+              <input type="email"  class="input">
+              <mat-icon class="icon">search</mat-icon>
+            </div>
+          </div>
+        </div>
+
+        <div class="links">
+          <mat-icon class="icon1" [routerLink]="'/rento/home'">home</mat-icon>
+          <mat-icon class="icon1" [routerLink]="'/rento/local'">shopping_bag</mat-icon>
+          <mat-icon class="icon1" [routerLink]="'/rento/schedule'">calendar_month</mat-icon>
+        </div>
+
+        <img class="image" [routerLink]="'/rento/profile-lessor'" src="assets\image\Perfil.png" alt="Profile image">
+
+      </mat-toolbar>
+    </header>
+  </mat-grid-tile-header>

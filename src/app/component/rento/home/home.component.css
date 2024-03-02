@@ -1,0 +1,41 @@
+.center
+{
+  text-align: center;
+  height: 300px;
+  padding: 12px;
+}
+
+
+.example-card2-1 {
+  margin: auto;
+  margin-top: 3%;
+  width : 50% ;
+  height: auto;
+
+}
+
+.imagen{
+  width : 200px ;
+  height: 200px;
+  left: 15px;
+  padding-right: 10px;
+  float: left;
+}
+
+.pruebita{
+  float: left;
+  font-size: 17px;
+}
+.pruebita2{
+  text-align: right;
+  font-size: 17px;
+}
+
+.alinearTexto
+{
+  text-align: left;
+}
+
+.alinear{
+  left: 580px;
+}
